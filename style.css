@@ -7,21 +7,38 @@ html {
   background-size: cover;
 }
 
+.container {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 h1 {
     font-size: 3rem;
     text-transform: uppercase;
 }
 
+
 hr {
     border-color: #F08764;
     border-width: 3px;
-    max-width: 300px;
+    max-width: 500px;
+}
+
+.btn-container {
+    margin-left: 6rem;
 }
 
 .btn {
     font-weight: 700;
     border-radius: 300px;
     text-transform: uppercase;
+    margin-left: 20px;
 }
 
 .btn-primary {
